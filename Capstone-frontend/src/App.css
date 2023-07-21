@@ -1,0 +1,443 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-header {
+  background-color: #e5c385;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1,p{
+  color:#058789 
+}
+
+.custom-carousel-image {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+   
+}
+
+.my-custom-carousel .card-img-top {
+  object-fit: cover; 
+  height: auto; 
+}
+
+
+.logo-img {
+  width: 250px; 
+  height: 200px; 
+}
+
+.py-3{
+  background-color:#ffecd6e7 ;
+}
+
+.navbar {
+  box-shadow: 0px 2px 10px #058789 (0, 0, 0, 0.1);
+}
+
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  
+}
+
+.navbar-nav .nav-link {
+  color: #F7931E;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 15px;
+  
+}
+
+
+
+.nav-link:visited {
+  color: #F7931E;
+}
+
+.dropdown-menu {
+  box-shadow: 0px 2px 10px #F7931E(218, 18, 18);
+}
+
+.dropdown-item {
+  
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background:linear-gradient(to right, #e5c385, #ff7c60);;
+  color: #058789;
+}
+
+.navbar-toggler-icon {
+ color: #FFA500 !important;
+ filter: invert(1);
+}
+
+
+
+#basic-nav-dropdown .dropdown-toggle {
+  background:#FFA500 linear-gradient(to right, #FFA500, #ff7c60);;
+  
+}
+
+
+.custom-dropdown .dropdown-menu {
+  background-color: #058789;
+}
+
+
+.jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0 2px 6px rgba(158, 13, 13, 0.3);
+  
+}
+
+.jumbotron h1 {
+  font-size: 1rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+.text-ridotta {
+  font-size: 14px;
+  color: #FFA500 !important;
+ 
+  
+}
+
+.text-inferiore {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  font-style: italic;
+  color: #058789 
+}
+
+.responsive-image {
+  width: 80px !important;
+  height: 80px !important;
+  margin-top: 420px;
+}
+
+.my-jumbotron {
+  padding: 0;
+}
+
+.my-jumbotron {
+  position: relative; 
+  overflow: hidden;
+}
+
+.full-width-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+
+/*
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%;
+  z-index: 10;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev {
+  left: 2%;
+}
+
+.carousel-control-next {
+  right: 2%;
+}
+*/
+
+
+.jumbotron-row {
+  height: 60vh;
+}
+
+.custom-image {
+  max-height: 20vh;
+  width: auto;
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+
+
+.attività{
+  background: linear-gradient(to right,  #058789 , #F7931E);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+}
+
+.adapt{
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.card {
+    border-radius: 10px;
+    border: none !important;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    width: auto;
+    height: auto;
+}
+
+.Home{
+  background-color: #058789 ;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+ 
+  object-fit: cover;
+}
+
+.btn-card {
+  background-color: #FFA500;
+}
+
+.btn:hover {
+  background-color:  #058789;
+  cursor: pointer;
+}
+
+.card:hover {
+   box-shadow: #058789;
+}
+
+
+.button-prenota {
+  background: linear-gradient(
+    to bottom right,
+    #fdc639, #ff7c60
+  ); 
+  border-radius: 55px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-prenota::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, black(255, 165, 0, 0.5) 0%, transparent 70%);
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.button-prenota:hover::before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.esperienze {
+  color:  #FFA500;
+}
+;
+
+
+
+
+
+
+.trip {
+height: 100px;
+width: 100px;
+  margin-left: 190px;
+ background-color:  #e5c385 ;
+}
+
+.weather-section {
+  background-color: #ffecd6e7;
+  background-size: cover;
+  background-position: center;
+ color: #FFA500;
+}
+ ;
+
+.input-ricerca{
+  background: linear-gradient(
+    to bottom right,
+    white to rgb(224, 222, 222)
+  );
+  border: none;
+  border-radius: 55px !important;
+}
+.button-ricerca{
+  border: none;
+  border-radius: 55px !important;
+background-color: #FFA500 !important;
+width: 200px;
+}
+.sfondo-meteo {
+  background-color: #ffecd6e7;
+ 
+}
+
+
+
+.my-custom-class {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  color:  rgb(153, 146, 146);
+}
+
+
+
+
+
+
+.sfondo {
+ 
+  background: #ffecd6e7;
+  background-size: cover;
+  background-position:  center;
+  position: relative;
+  z-index: 0;
+  
+
+} 
+
+
+
+
+
+
+Form {
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-prenota {
+  background: #FFA500 !important;
+  border-radius: 55px !important;
+  width: 200px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.modifica {
+  
+ 
+  border-radius: 55px !important;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-cancella{
+
+  
+   
+  border-radius: 55px !important;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-label {
+  color: #FFA500;
+  font-weight: bold;
+}
+
+.btn-dettagli {
+  border-radius: 55px !important;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+ 
+}
